@@ -9,23 +9,42 @@
 /* Begin PBXBuildFile section */
 		B7FB2D24298C0B7F0007402E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FB2D23298C0B7F0007402E /* AppDelegate.swift */; };
 		B7FB2D26298C0B7F0007402E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FB2D25298C0B7F0007402E /* SceneDelegate.swift */; };
-		B7FB2D28298C0B7F0007402E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FB2D27298C0B7F0007402E /* ViewController.swift */; };
-		B7FB2D2B298C0B7F0007402E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7FB2D29298C0B7F0007402E /* Main.storyboard */; };
 		B7FB2D2E298C0B7F0007402E /* FoodJournalApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B7FB2D2C298C0B7F0007402E /* FoodJournalApp.xcdatamodeld */; };
 		B7FB2D30298C0B800007402E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7FB2D2F298C0B800007402E /* Assets.xcassets */; };
 		B7FB2D33298C0B800007402E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7FB2D31298C0B800007402E /* LaunchScreen.storyboard */; };
+		B7FB2D43298C0BFA0007402E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FB2D41298C0BFA0007402E /* HomeVC.swift */; };
+		B7FB2D44298C0BFA0007402E /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7FB2D42298C0BFA0007402E /* HomeVC.xib */; };
+		B7FB2D46298C0C770007402E /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FB2D45298C0C770007402E /* HomeVM.swift */; };
+		B7FB2D49298C0CFE0007402E /* UIViewController + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FB2D48298C0CFE0007402E /* UIViewController + Extensions.swift */; };
+		B7FB2D4C298C0D560007402E /* UIScrollView_InfiniteScroll in Frameworks */ = {isa = PBXBuildFile; productRef = B7FB2D4B298C0D560007402E /* UIScrollView_InfiniteScroll */; };
+		B7FB2D50298C0DD50007402E /* CreateFoodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FB2D4E298C0DD50007402E /* CreateFoodVC.swift */; };
+		B7FB2D51298C0DD50007402E /* CreateFoodVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7FB2D4F298C0DD50007402E /* CreateFoodVC.xib */; };
+		B7FB2D53298C0F9A0007402E /* CoreData Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FB2D52298C0F9A0007402E /* CoreData Manager.swift */; };
+		B7FB2D55298C0FF10007402E /* FoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FB2D54298C0FF10007402E /* FoodModel.swift */; };
+		B7FB2D58298C13A30007402E /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FB2D57298C13A30007402E /* HomeCell.swift */; };
+		B7FB2D5A298C13D20007402E /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7FB2D59298C13D20007402E /* HomeCell.xib */; };
+		B7FB2D5C298C1F8A0007402E /* CreateFoodVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FB2D5B298C1F8A0007402E /* CreateFoodVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B7FB2D20298C0B7F0007402E /* FoodJournalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodJournalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7FB2D23298C0B7F0007402E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7FB2D25298C0B7F0007402E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B7FB2D27298C0B7F0007402E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B7FB2D2A298C0B7F0007402E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7FB2D2D298C0B7F0007402E /* FoodJournalApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodJournalApp.xcdatamodel; sourceTree = "<group>"; };
 		B7FB2D2F298C0B800007402E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7FB2D32298C0B800007402E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7FB2D34298C0B800007402E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7FB2D41298C0BFA0007402E /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		B7FB2D42298C0BFA0007402E /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		B7FB2D45298C0C770007402E /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
+		B7FB2D48298C0CFE0007402E /* UIViewController + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extensions.swift"; sourceTree = "<group>"; };
+		B7FB2D4E298C0DD50007402E /* CreateFoodVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFoodVC.swift; sourceTree = "<group>"; };
+		B7FB2D4F298C0DD50007402E /* CreateFoodVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateFoodVC.xib; sourceTree = "<group>"; };
+		B7FB2D52298C0F9A0007402E /* CoreData Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoreData Manager.swift"; sourceTree = "<group>"; };
+		B7FB2D54298C0FF10007402E /* FoodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodModel.swift; sourceTree = "<group>"; };
+		B7FB2D57298C13A30007402E /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		B7FB2D59298C13D20007402E /* HomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		B7FB2D5B298C1F8A0007402E /* CreateFoodVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFoodVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7FB2D4C298C0D560007402E /* UIScrollView_InfiniteScroll in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +78,97 @@
 		B7FB2D22298C0B7F0007402E /* FoodJournalApp */ = {
 			isa = PBXGroup;
 			children = (
+				B7FB2D40298C0BAA0007402E /* Helpers */,
+				B7FB2D3F298C0BA30007402E /* Extensions */,
+				B7FB2D3E298C0B9D0007402E /* Model */,
+				B7FB2D3D298C0B980007402E /* Assets */,
+				B7FB2D3C298C0B930007402E /* App */,
+				B7FB2D3A298C0B8A0007402E /* UI */,
+			);
+			path = FoodJournalApp;
+			sourceTree = "<group>";
+		};
+		B7FB2D3A298C0B8A0007402E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B7FB2D4D298C0D8E0007402E /* CreateFood */,
+				B7FB2D47298C0C870007402E /* Home */,
+				B7FB2D31298C0B800007402E /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		B7FB2D3C298C0B930007402E /* App */ = {
+			isa = PBXGroup;
+			children = (
 				B7FB2D23298C0B7F0007402E /* AppDelegate.swift */,
 				B7FB2D25298C0B7F0007402E /* SceneDelegate.swift */,
-				B7FB2D27298C0B7F0007402E /* ViewController.swift */,
-				B7FB2D29298C0B7F0007402E /* Main.storyboard */,
-				B7FB2D2F298C0B800007402E /* Assets.xcassets */,
-				B7FB2D31298C0B800007402E /* LaunchScreen.storyboard */,
 				B7FB2D34298C0B800007402E /* Info.plist */,
 				B7FB2D2C298C0B7F0007402E /* FoodJournalApp.xcdatamodeld */,
 			);
-			path = FoodJournalApp;
+			path = App;
+			sourceTree = "<group>";
+		};
+		B7FB2D3D298C0B980007402E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B7FB2D2F298C0B800007402E /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B7FB2D3E298C0B9D0007402E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B7FB2D54298C0FF10007402E /* FoodModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B7FB2D3F298C0BA30007402E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B7FB2D48298C0CFE0007402E /* UIViewController + Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B7FB2D40298C0BAA0007402E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B7FB2D52298C0F9A0007402E /* CoreData Manager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B7FB2D47298C0C870007402E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B7FB2D56298C12F90007402E /* Cell */,
+				B7FB2D42298C0BFA0007402E /* HomeVC.xib */,
+				B7FB2D41298C0BFA0007402E /* HomeVC.swift */,
+				B7FB2D45298C0C770007402E /* HomeVM.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B7FB2D4D298C0D8E0007402E /* CreateFood */ = {
+			isa = PBXGroup;
+			children = (
+				B7FB2D4E298C0DD50007402E /* CreateFoodVC.swift */,
+				B7FB2D4F298C0DD50007402E /* CreateFoodVC.xib */,
+				B7FB2D5B298C1F8A0007402E /* CreateFoodVM.swift */,
+			);
+			path = CreateFood;
+			sourceTree = "<group>";
+		};
+		B7FB2D56298C12F90007402E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B7FB2D57298C13A30007402E /* HomeCell.swift */,
+				B7FB2D59298C13D20007402E /* HomeCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +187,9 @@
 			dependencies = (
 			);
 			name = FoodJournalApp;
+			packageProductDependencies = (
+				B7FB2D4B298C0D560007402E /* UIScrollView_InfiniteScroll */,
+			);
 			productName = FoodJournalApp;
 			productReference = B7FB2D20298C0B7F0007402E /* FoodJournalApp.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +218,9 @@
 				Base,
 			);
 			mainGroup = B7FB2D17298C0B7F0007402E;
+			packageReferences = (
+				B7FB2D4A298C0D560007402E /* XCRemoteSwiftPackageReference "UIScrollView-InfiniteScroll" */,
+			);
 			productRefGroup = B7FB2D21298C0B7F0007402E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,8 +236,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7FB2D33298C0B800007402E /* LaunchScreen.storyboard in Resources */,
+				B7FB2D44298C0BFA0007402E /* HomeVC.xib in Resources */,
+				B7FB2D51298C0DD50007402E /* CreateFoodVC.xib in Resources */,
 				B7FB2D30298C0B800007402E /* Assets.xcassets in Resources */,
-				B7FB2D2B298C0B7F0007402E /* Main.storyboard in Resources */,
+				B7FB2D5A298C13D20007402E /* HomeCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +250,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7FB2D28298C0B7F0007402E /* ViewController.swift in Sources */,
 				B7FB2D24298C0B7F0007402E /* AppDelegate.swift in Sources */,
+				B7FB2D46298C0C770007402E /* HomeVM.swift in Sources */,
+				B7FB2D50298C0DD50007402E /* CreateFoodVC.swift in Sources */,
+				B7FB2D43298C0BFA0007402E /* HomeVC.swift in Sources */,
+				B7FB2D58298C13A30007402E /* HomeCell.swift in Sources */,
+				B7FB2D5C298C1F8A0007402E /* CreateFoodVM.swift in Sources */,
 				B7FB2D26298C0B7F0007402E /* SceneDelegate.swift in Sources */,
+				B7FB2D49298C0CFE0007402E /* UIViewController + Extensions.swift in Sources */,
+				B7FB2D55298C0FF10007402E /* FoodModel.swift in Sources */,
 				B7FB2D2E298C0B7F0007402E /* FoodJournalApp.xcdatamodeld in Sources */,
+				B7FB2D53298C0F9A0007402E /* CoreData Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B7FB2D29298C0B7F0007402E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B7FB2D2A298C0B7F0007402E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B7FB2D31298C0B800007402E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -293,10 +401,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L24C9CN3G6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FoodJournalApp/Info.plist;
+				INFOPLIST_FILE = FoodJournalApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -321,10 +428,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L24C9CN3G6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FoodJournalApp/Info.plist;
+				INFOPLIST_FILE = FoodJournalApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -362,6 +468,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B7FB2D4A298C0D560007402E /* XCRemoteSwiftPackageReference "UIScrollView-InfiniteScroll" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pronebird/UIScrollView-InfiniteScroll";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B7FB2D4B298C0D560007402E /* UIScrollView_InfiniteScroll */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B7FB2D4A298C0D560007402E /* XCRemoteSwiftPackageReference "UIScrollView-InfiniteScroll" */;
+			productName = UIScrollView_InfiniteScroll;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		B7FB2D2C298C0B7F0007402E /* FoodJournalApp.xcdatamodeld */ = {
